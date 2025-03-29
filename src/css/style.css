@@ -260,11 +260,12 @@
 /** Bonus section styles **/
 
 .bonus {
-  padding-top: 80px;
+  padding: 80px 0 80px 0;
   .bonus__img {
     display: block;
     margin: 0 auto;
   }
+
   .bonus__descr {
     margin: 80px 10px 0 10px;
     font-weight: 500;
@@ -273,7 +274,45 @@
     text-align: center;
     line-height: 45px;
   }
+
   .bonus__btn {
-    margin-top: 80px;
+    margin-top: 60px;
+  }
+}
+
+/** Invite section styles **/
+
+.invite {
+  padding: 50px 0 50px 0;
+  background-color: #0f0b0b;
+
+  .invite__img {
+    display: block;
+    margin: 0 auto;
+  }
+  .invite__descr-big {
+    margin-top: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .invite__time {
+    margin-top: 20px;
+    display: block;
+    font-weight: 900;
+    color: #f9bf3b;
+    font-size: 36px;
+    text-align: center;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+  .invite__descr-small {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #efefef;
+    font-size: 23px;
+    text-align: center;
   }
 }
