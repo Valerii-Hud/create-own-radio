@@ -6,6 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto"; /* TODO: Temporary solution */
 }
 
 ::selection {
@@ -63,6 +64,13 @@
   width: 220px;
   height: 7px;
   background-color: var(--main-color, #f9bf3b);
+}
+
+/** Links styles **/
+
+a {
+  all: unset;
+  text-decoration: none;
 }
 
 /** Promo section styles **/
@@ -314,5 +322,37 @@
     color: #efefef;
     font-size: 23px;
     text-align: center;
+  }
+}
+
+/** Contacts section styles **/
+
+.contacts {
+  padding: 60px 0 60px 0;
+  background-color: #1a1a1a;
+  text-align: center;
+  font-weight: 100;
+  color: #878787;
+  font-size: 1.5rem;
+  line-height: 40px;
+  .links__wrapper {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+
+    span {
+      font-size: 2rem;
+      margin: 0px 10px;
+    }
+    .contacts__support {
+      cursor: pointer;
+    }
+
+    .contacts__privacy {
+      cursor: pointer;
+    }
+  }
+  .contacts__call {
+    cursor: pointer;
   }
 }
