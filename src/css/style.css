@@ -1,12 +1,8 @@
+@import url("./modern-normolize.min.css"); /* Connect modern-normolize library */
+@import url("./css-reset.css"); /*  CSS Reset  */
+
 :root {
   --main-color: #f9bf3b;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto"; /* TODO: Temporary solution */
 }
 
 ::selection {
@@ -84,7 +80,6 @@ a {
 
   .logo {
     .logo__img {
-      display: block;
       margin: 0 auto;
     }
 
@@ -135,7 +130,6 @@ a {
   }
 
   .promo__scroll-img {
-    display: block;
     margin: 10px auto 0 auto;
   }
 }
@@ -278,7 +272,6 @@ a {
 .bonus {
   padding: 80px 0 80px 0;
   .bonus__img {
-    display: block;
     margin: 0 auto;
   }
 
@@ -303,7 +296,6 @@ a {
   background-color: #0f0b0b;
 
   .invite__img {
-    display: block;
     margin: 0 auto;
     object-fit: cover;
     width: 500px;
