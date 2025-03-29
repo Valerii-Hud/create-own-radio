@@ -1,8 +1,17 @@
-@import url("./modern-normolize.min.css"); /* Connect modern-normolize library */
+/* ! CDN Connection ! */
+/*@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap");  Google fonts - Roboto font*/
+
+/* ! Local connection: For example, if the CDN server breaks down !*/
+@import url("./modern-normolize.min.css");
 @import url("./css-reset.css"); /*  CSS Reset  */
+@import url("./fonts.css"); /* Local fonts */
 
 :root {
   --main-color: #f9bf3b;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
 }
 
 ::selection {
