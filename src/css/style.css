@@ -256,3 +256,24 @@
     font-weight: 300;
   }
 }
+
+/** Bonus section styles **/
+
+.bonus {
+  padding-top: 80px;
+  .bonus__img {
+    display: block;
+    margin: 0 auto;
+  }
+  .bonus__descr {
+    margin: 80px 10px 0 10px;
+    font-weight: 500;
+    color: #242424;
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+  }
+  .bonus__btn {
+    margin-top: 80px;
+  }
+}
